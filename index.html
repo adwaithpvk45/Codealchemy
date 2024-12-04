@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="index.css">
+   <!-- <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"> -->
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script> 
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <title>Code Alchaemy</title>
+    <link rel="icon" href="./images/logo1.png" type="image/x-icon"></head>
+<body>
+  <!-- <div class="header"> -->
+      <!-- navbar start -->
+       <header>
+        <h1 class="sitename d-flex justify-content-center py-2">Code - <span class="mx-2 " style="color: rgb(140, 213, 31);">Alchaemy</span></h1>
+       </header>
+      <nav class="navbar  navbar-expand-lg sticky-top">
+        <div class="container-fluid">
+          <div style="width: 70px;height:60px" class="logo"><a class="navbar-brand me-auto" href="#"><img style="width:100%;height:100%;clip-path: circle(50%);" src="./images/logo1.png"></a></div>
+          
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <div style="width: 70px;height:60px"><a class="navbar-brand me-auto" href="#"><img style="width:100%;height:100%;clip-path: circle(50%);" src="./images/logo1.png"></a></div>
+
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body" >
+              <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link  mx-lg-2" aria-current="page" href="#home">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-lg-2" href="#aboutus">ABOUT US</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-lg-2" href="#courses">COURSES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-lg-2" href="#carrers">CAREERS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-lg-2" href="#contactus">CONTACT US</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <a href="#" class="login-button">LOGIN</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation" >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+  <!-- navbar ends -->
+   <!-- carousel start -->
+    <div class="container home1" style="padding-top: 40px;padding-bottom:0px;margin-bottom: 5%;" id="home">
+  <div id="carouselExampleDark" class="carousel carousel-dark slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner " style="border-radius: 20px;" >
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="./images/computer1.jpeg" class="d-block w-100" alt="teachers" style="height: 500px;object-fit: cover;">
+        <div class="carousel-caption d-none d-md-block" >
+          <h5 style="font-family: 'Georgia', serif;font-weight: 700;">All-In-One<br>Learning Platform<br>For Job Oriented Learning. 
+          </h5>
+          <br>
+          <p style="font-weight: 500;">24*7 Help Support for each course.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="./images/computer2.webp" class="d-block w-100" style="height: 500px;object-fit: cover;" alt="teachers">
+        <div class="carousel-caption d-none d-md-block" style="left: 35%;">
+          <h5 style="font-family: 'Georgia', serif;font-weight: 700;">Learn & Succeed.<br> Practical skills, in-demand careers.<br> Start now. 
+          </h5>
+          <br>
+          <p style="font-weight: 500;">24*7 Help Support for each course.</p>
+        </div>
+      </div>
+      <div class="carousel-item" style="position: relative;">
+        <img src="./images/computer3.webp" class="d-block w-100" style="height: 500px;object-fit: cover;" alt="teachers">
+        <div class="carousel-caption d-none d-md-block " style="left: 55%;">
+          <h5 style="font-family: 'Georgia', serif;font-weight: 700;">Flexible and relaible<br>Learning Options<br>to Fit Your Life. 
+          </h5>
+          <br>
+          <p style="font-weight: 500;">24*7 Help Support for each course.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden" >Next</span>
+    </button>
+    <div  id="aboutus"></div>
+  </div>
+    </div>
+    
+<!-- carousel end -->
+ <!-- about us start -->
+    <div class="container aboutus" style="padding: 30px 30px 30px 30px;;background-color: rgba(246, 243, 236, 0.79);border-radius: 20px;" >
+  <div class="row">
+  <div>
+      <div style="display: flex;justify-content: center;">
+    <h1 style="padding: 0px 00px 20px;">WHY CHOOSE US ?</h1>
+    <br>
+    <br>
+  </div>
+  <div class="row d-flex" >
+    <div class="col-lg-7 " >
+      <p style="text-align: justify;">At <b>"Code Alchaemy"</b> we are committed to empowering learners at every stage of their educational journey. Our platform is built on a foundation of personalized learning, expert guidance, and a community-driven approach that ensures you're never alone in your pursuit of knowledge. Whether you're a student aiming to excel in your studies, a professional looking to enhance your skills, or someone eager to explore new subjects, "Code Alchaemy" offers tailored resources, interactive courses, and dedicated support to help you achieve your goals. Choose "Code Alchaemy" because we believe in learning together, growing together, and succeeding together.</p>
+       <div class="aboutIcons" style="display: flex;font-size: 300%;justify-content: space-around;margin: 50px;">
+        <div style="display: flex;flex-direction: column;align-items: center;margin: 10px;"><i  class="fa-solid fa-hands-holding"></i>
+        <p style="font-size: small;font-weight: 500;display: flex;flex-direction: column;align-items: center;">Constant <span>Assistance</span></p></div>
+        <div style="display: flex;flex-direction: column;align-items: center;margin: 10px;"><i class="fa-solid fa-scale-unbalanced"></i>
+        <p style="font-size: small;font-weight: 500;display: flex;flex-direction: column;align-items: center;">Ethical  <span>Education</span> </p></div>
+        <div style="display: flex;flex-direction: column;align-items: center;margin: 10px;"><i  class="fa-solid fa-gift"></i>
+          <p style="font-size: small;font-weight: 500;display: flex;flex-direction: column;align-items: center;">Great <span>Facilities</span></p></div>
+        <div style="display: flex;flex-direction: column;align-items: center;margin: 10px;"><i  class="fa-solid fa-people-arrows"></i>
+          <p style="font-size: small;font-weight: 500;display: flex;flex-direction: column;align-items: center;">Expert <span>Faculties</span></p></div>
+      </div>
+    </div>
+
+    <!-- carousel in about -->
+    <div class="col-lg-5" style="padding: 0px 20px 20px;">
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner" style="border-radius: 30px;">
+          <div class="carousel-item active">
+            <img src="./images/aboutus1.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/aboutus3.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/aboutus2.webp" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- carousel in about ends -->
+    </div>
+  </div>
+</div>
+  </div>
+    </div>
+  <!-- about us end -->
+
+   <!-- team leads start -->
+    <div class="container d-flex flex-column">
+    <div>
+      <h1 class="cardsphoto d-flex justify-content-center" >Team Leads</h1>
+    </div>
+    <div class="row">
+      <div class="col-lg-3 col-md-6 col-12">
+        <div style="margin-top: 4%;margin-bottom: 5%;display: flex;justify-content: center ;" class="card-container">
+          <div class="card" style="width: 18rem;" >
+           <img src="./images/team1.webp" class="card-img-top" alt="..."  >
+            <div class="card-body">
+              <p class="card-text"><span style="font-weight: 700;">John Doe</span>
+                <br>
+                <span style="font-weight: 200;">Lead Content Developer</span>
+                <br>
+                
+                "<i>I believe education is the foundation for change. At WithYou, my goal is to create engaging content that inspires and empowers students to achieve their best.</i>"
+               <ul>
+                <li>Expertise in digital content strategy</li>
+                <li>5+ years in educational content creation</li>
+                <li>Passionate about student success</li>
+               </ul> 
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class=" col-lg-3 col-md-6" >
+        <div style="margin-top: 4%;margin-bottom: 5%;box-shadow: rgb(105, 28, 28);display: flex;justify-content: center ;">
+          <div class="card" style="width: 18rem;position: relative;" >
+            <img src="./images/team2.webp" class="card-img-top " alt="...">
+              <div class="card-body">
+                <p class="card-text"><span style="font-weight: 700;">Jane Smith</span>
+                  <br>
+                  
+                  <span style="font-weight: 200;">LeadTechnology Lead</span>
+                  <br>
+                  
+                  "<i>Driving innovation in education is my mission. By integrating the latest technologies, I ensure that our platform offers the best learning experience.</i>"
+                 <ul>
+                  <li>Specialist in EdTech solutions</li>
+                  <li>Over 8 years in technology leadership</li>
+                  <li>Dedicated to creating scalable and impactful learning tools</li>
+                 </ul> 
+                </p></p>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div style="margin-top: 4%;margin-bottom: 5%;display: flex;justify-content: center ;">
+          <div class="card" style="width: 18rem;" >
+            <img src="./images/teachers6.jpeg"  class="card-img-top " alt="...">
+              <div class="card-body">
+                <p class="card-text"><span style="font-weight: 700;">Emily Taylor</span>
+                  <br>                  
+                  <span style="font-weight: 200;">Marketing & Outreach Lead</span>
+                  <br>                  
+                  "<i>Sharing the transformative power of learning is my passion. I ensure that every learner knows about the opportunities we provide.</i>"
+                 <ul>
+                  <li>7+ years in educational marketing</li>
+                  <li>Specialist in community outreach and engagement</li>
+                  <li>Driven by a passion for accessible education</li>
+                 </ul> 
+                </p></p>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div style="margin-top: 4%;margin-bottom: 5%;display: flex;justify-content: center ;">
+          <div class="card " style="width: 18rem;" >
+            <img src="./images/teachers5.jpeg" class="card-img-top " alt="...">
+              <div class=" card-body">
+               <p class="card-text"><span style="font-weight: 700;">Michael Brown</span>
+                <br>
+                <span style="font-weight: 200;">Student Success Manager</span>
+                <br>  
+                "<i>Seeing students succeed is the most rewarding part of my job. I work closely with students to ensure they have the support and resources they need to excel.</i>"
+               <ul>
+                <li>10 years of experience in student services</li>
+                <li>Advocate for personalized learning paths</li>
+                <li id="courses">Passionate about mentorship and guidance
+                </li>
+               </ul> 
+              </p>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+   <!-- team leads end -->
+    <!-- Products strat --> 
+    <div class="container-fluid products" style="display: flex;flex-direction:column;margin-bottom: 0px;padding-bottom: 40px;">
+      <div>
+        <h1 class="cardsphoto d-flex justify-content-center" style="padding-bottom: 30px;margin-top: 50px;">Courses</h1>
+      </div>
+      <div class="row" data-aos="fade-right" style="transition: 2s;">
+        <div class="col-lg-3 col-md-6 col-12">
+          <div style="margin-top: 4%;margin-bottom: 5%;display: flex;justify-content: center ;" class="card-container">
+            <div class="card card1" style="width: 18rem; " >
+             <img src="./images/javascript-logo-javascript-icon-transparent-free-png.webp" class="card-img-top" alt="..."  >
+              <div class="card-body cardbody" style="background-color: rgba(198, 198, 80, 0.418);">
+                <h6>JAVASRCIPT</h6>
+                  <p class="info" style="font-size:13px;">Unlock the power of JavaScript, the essential programming language for the web. This course takes you on a journey from the basics of JavaScript to advanced topics, enabling you to build dynamic, interactive websites and applications.</p>
+                  <button type="button" class="enroll">Enroll</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class=" col-lg-3 col-md-6" >
+          <div style="margin-top: 4%;margin-bottom: 5%;box-shadow: rgb(105, 28, 28);display: flex;justify-content: center ;">
+            <div class="card card2" style="width: 18rem;position: relative;" >
+              <img src="./images/bootstrap.jpg" class="card-img-top " alt="...">
+              <div class="card-body cardbody" style="background-color: rgba(97, 79, 188, 0.353);">
+                  <h6>BOOTSTRAP</h6>
+                  <p class="info" style="font-size:13px;line-height: 15px;">Dive into the world of modern web development with Bootstrap, the most popular front-end framework. This course equips you with the skills to create responsive, mobile-first websites quickly and efficiently. Learn how to leverage Bootstrap's powerful components, grid system, and utilities to build sleek, professional websites without writing extensive custom CSS.</p>
+                  <button type="button" class="enroll">Enroll</button> 
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div style="margin-top: 4%;margin-bottom: 5%;display: flex;justify-content: center ;">
+            <div class="card card3" style="width: 18rem;" >
+              <img src="./images/css.jpg"  class="card-img-top " alt="...">
+                <div class="card-body cardbody" style="background-color: rgba(63, 147, 186, 0.31);">
+                  <h6>CSS</h6>
+                  <p class="info" style="font-size:13px;">Dive into the world of Cascading Style Sheets (CSS) and unlock the power of web design. This course is designed to take you from the basics of CSS to more advanced techniques, enabling you to create visually stunning, responsive, and modern websites.</p>
+                  <button type="button" class="enroll">Enroll</button>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div style="margin-top: 4%;margin-bottom: 5%;display: flex;justify-content: center ;">
+            <div class="card card4" style="width: 18rem;" >
+              <img src="./images/html-icon-3d-rendering-illustration-vector.jpg" class="card-img-top "  alt="...">
+              <div class="card-body cardbody">
+                  <h6>HTML</h6>
+                  <p class="info" style="font-size:13px;">Our HTML course is designed to provide you with a strong foundation in web development. Whether you're a beginner with no prior experience or someone looking to refresh their skills, this course will guide you through the basics of HTML, the essential language for creating web pages.</p>
+                  <button type="button" class="enroll">Enroll</button>
+                </div>
+            </div>
+          </div>
+          <span id="carrers"></span>
+        </div>
+      </div>
+      </div>
+    <!-- Products end -->
+     <!-- iframe contents start -->
+    <div  class="container-fluid iframeContainer" style="padding: 40px;background-color: #87bfaa33;border-radius: 20px;margin-top:40px;">
+      <div class="cardsphoto iframehead" style="display: flex;justify-content: center;">
+        <h1>Connect with Some Of Our Aluminis Now.</h1>
+      </div>
+      <br>
+      <div class="container iframe">
+        <!-- <div class="row"> -->
+          <div class="iframe1" data-aos="fade-right" style="transition: 1sec; grid-row-start: 1;grid-row-end: 4;grid-column-start: 1;grid-column-end: 3;"><iframe style="width: 100%;height: 93%;" src="https://www.youtube.com/embed/5VHYbNli4EM?si=lmXRT-XNtl4n2Kf6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+          <div class="iframe2" data-aos="fade-left" style="transition: 1sec;"><iframe  src="https://www.youtube.com/embed/38XMIMrIg_g?si=rqyTBcf-JBBXhuqD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+          <div class="iframe3" data-aos="fade-left" style="transition: 1sec;"><iframe  src="https://www.youtube.com/embed/38XMIMrIg_g?si=rqyTBcf-JBBXhuqD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+          <div class="iframe4" data-aos="fade-left" style="transition: 1sec;"><iframe  src="https://www.youtube.com/embed/38XMIMrIg_g?si=rqyTBcf-JBBXhuqD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+          <div class="iframe5" data-aos="fade-left" style="transition: 1sec;"><iframe  src="https://www.youtube.com/embed/38XMIMrIg_g?si=rqyTBcf-JBBXhuqD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+        <!-- </div> -->
+        </div>
+    </div>  
+    <!-- iframe contents end -->
+     <!-- testionials start -->
+     <div style="margin-top: 60px;">
+      <div style="display: flex;flex-direction: column;justify-content: center;align-items: center;">
+        <div style="display: flex;flex-direction: column;justify-content: center;align-items: center;" class="testiHead">
+          <h2 style="font-size: 300%;font-family: 'Times New Roman', Times, serif;">TESTIMONIALS</h2><br>
+          <h1></h1>
+          <p style="font-size: 200%;font-weight: 500;" class="placements">1500+ Placements <span><i class="fa-solid fa-star fa-bounce" style="color: #FFD43B;"></i></span></p>
+        </div>
+        <div style="display: flex;flex-direction: column;justify-content: center;align-items: center;">
+          <img src="./images/FAANG_companies_1200x768.avif" style="width: 30%; height: 30%;">
+        </div>
+      </div>
+     <div class="container-fluid testi" style="width: 100%;height: auto;margin-top: 10px;margin-bottom: 20px;background-color: #7a7b7d4a;">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row" style="margin: 20px;">
+              <div class="col-lg-4" style="margin-bottom: 20px;">
+                <div class="card testimonialcard">
+                  <div class="box front" >
+                    <img src="./images/testi1.webp" >
+                    <h1>Emily Johnson</h1>
+                    <h4>Front-End Developer</h4>
+                    <p class="socials">
+                      <i class="fa-brands fa-facebook"></i>
+                      <i class="fa-brands fa-instagram"></i>
+                      <i class="fa-brands fa-linkedin"></i>
+                    </p>
+                  </div>
+                  <br>
+                  <div class="box back">
+                    <span class="fa fa-quote-left"></span>
+                    <p>The web development course transformed my career. I went from having zero coding experience to building fully responsive websites. The hands-on projects gave me the confidence to land my first developer job. The instructors
+                       were incredibly supportive throughout the journey</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4" style="margin-bottom: 20px;">
+                <div class="card testimonialcard">
+                  <div class="box front">
+                    <img src="./images/team2.webp" >
+                    <h1>Michael Reed</h1>
+                    <h4>Full-Stack Developer</h4>
+                    <p class="socials">
+                      <i class="fa-brands fa-facebook"></i>
+                      <i class="fa-brands fa-instagram"></i>
+                      <i class="fa-brands fa-linkedin"></i>
+                    </p>
+                  </div>
+                  <br>
+                  <div class="box back">
+                    <span class="fa fa-quote-left"></span>
+                    <p>The software courses were comprehensive and practical. Learning both front-end and back-end technologies has allowed me to work on diverse projects with ease. I am now confident in my skills to tackle real-world problems,
+                       thanks to the institute's industry-focused approach.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4" style="margin-bottom: 20px;">   
+                <div class="card testimonialcard">
+                  <div class="box front" >
+                    <img src="./images/team1.webp" >
+                    <h1>David Patel</h1>
+                    <h4>Software Engineer</h4>
+                    <p class="socials">
+                      <i class="fa-brands fa-facebook"></i>
+                      <i class="fa-brands fa-instagram"></i>
+                      <i class="fa-brands fa-linkedin"></i>
+                    </p>
+                  </div>
+                  <br>
+                  <div class="box back">
+                    <span class="fa fa-quote-left"></span>
+                    <p>Completing this course opened many doors for me. The curriculum covered everything from basic web development to advanced frameworks. I particularly enjoyed learning how to integrate various technologies, 
+                      which has made me a well-rounded software engineer.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row" style="margin: 20px;">
+              <div class="col-lg-4" style="margin-bottom: 20px;">
+                <div class="card testimonialcard">
+                  <div class="box front" >
+                    <img src="./images/team2.webp" >
+                    <h3>David Wilson </h3>
+                    <h5>Full-Stack Developer</h5>
+                    <p class="socials">
+                      <i class="fa-brands fa-facebook"></i>
+                      <i class="fa-brands fa-instagram"></i>
+                      <i class="fa-brands fa-linkedin"></i>
+                    </p>
+                  </div>
+                  <br>
+                  <div class="box back">
+                    <span class="fa fa-quote-left"></span>
+                    <p>"This course equipped me with the skills to work confidently on both front-end and back-end development. The real-world projects gave me practical experience, and now I am working on complex web applications with ease. Highly 
+                      recommend this program to anyone serious about web development."</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4" style="margin-bottom: 20px;">
+                <div class="card testimonialcard">
+                  <div class="box front" >
+                    <img src="./images/testi5.jpeg" >
+                    <h3>Sarah Collins</h3>
+                    <h5>Web Designer</h5>
+                    <p class="socials">
+                      <i class="fa-brands fa-facebook"></i>
+                      <i class="fa-brands fa-instagram"></i>
+                      <i class="fa-brands fa-linkedin"></i>
+                    </p>
+                  </div>
+                  <br>
+                  <div class="box back">
+                    <span class="fa fa-quote-left"></span>
+                    <p>Learning web development alongside content management was a game-changer for my career. I now have a unique skill set that allows me to design, build, and manage websites effectively. The instructors were incredibly supportive, making the learning process smooth and enjoyable.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4" style="margin-bottom: 20px;">
+                <div class="card testimonialcard">
+                  <div class="box front" >
+                    <img src="./images/test4.webp" >
+                    <h3>Laura Mitchell</h3>
+                    <h5>Front-End Developer</h5>
+                    <p class="socials">
+                      <i class="fa-brands fa-facebook"></i>
+                      <i class="fa-brands fa-instagram"></i>
+                      <i class="fa-brands fa-linkedin"></i>
+                    </p>
+                  </div>
+                  <br>
+                  <div class="box back">
+                    <span class="fa fa-quote-left"></span>
+                    <p>
+                      The web development course was exactly what I needed to start my journey as a front-end developer. I’ve gained expertise in responsive design and modern frameworks, which has made me more competitive in the job market. 
+                      This course has truly been a stepping stone to my career growth."</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row" style="margin: 20px;">
+              <div class="col-lg-4" style="margin-bottom: 20px;">
+                <div class="card testimonialcard">
+                  <div class="box front" >
+                    <img src="./images/testi6.webp" >
+                    <h3> Sophia Anderson</h3>
+                    <h5> UX/UI Designer</h5>
+                    <p class="socials">
+                      <i class="fa-brands fa-facebook"></i>
+                      <i class="fa-brands fa-instagram"></i>
+                      <i class="fa-brands fa-linkedin"></i>
+                    </p>
+                  </div>
+                  <br>
+                  <div class="box back">
+                    <span class="fa fa-quote-left"></span>
+                    <p>The web development course gave me a solid foundation in both design and coding. I now have the skills to create seamless, user-friendly interfaces. This course has empowered me to confidently design and build websites from scratch.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4" style="margin-bottom: 20px;">
+                <div class="card testimonialcard">
+                  <div class="box front" >
+                    <img src="./images/testi7.webp" >
+                    <h3>Olivia Bennett</h3>
+                    <h5>Web Developer</h5>
+                    <p class="socials">
+                      <i class="fa-brands fa-facebook"></i>
+                      <i class="fa-brands fa-instagram"></i>
+                      <i class="fa-brands fa-linkedin"></i>
+                    </p>
+                  </div>
+                  <br>
+                  <div class="box back">
+                    <span class="fa fa-quote-left"></span>
+                    <p>The training I received was invaluable. I was able to transition into a new career as a web developer, and the course content covered everything I needed, from HTML to advanced JavaScript. The support from instructors was fantastic and kept me motivated throughout.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4" style="margin-bottom: 20px;">
+                <div class="card testimonialcard">
+                  <div class="box front" >
+                    <img src="./images/teachers2.jpg" >
+                    <h3>John Turner</h3>
+                    <h5>Software Architect</h5>
+                    <p class="socials">
+                      <i class="fa-brands fa-facebook"></i>
+                      <i class="fa-brands fa-instagram"></i>
+                      <i class="fa-brands fa-linkedin"></i>
+                    </p>
+                  </div>
+                  <br>
+                  <div class="box back">
+                    <span class="fa fa-quote-left"></span>
+                    <p> Completing this course has been a game-changer for my career. The institute’s detailed approach to web and software development prepared me to handle complex projects with ease. I now confidently design and oversee software systems in my current role.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+       <!-- testionials end -->
+        <!-- FAQ start --->
+    <div class="container-fluid faq" style="margin-bottom: 30px;">
+          <div class="container">
+            <h1 style="color: rgb(45, 44, 44);">FAQ'S</h1>
+          </div>
+          <br>
+          <div class="container" style="border-color: black;">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    What courses do you offer?
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">At "WithUs," we offer a wide range of computer-related courses, including programming languages like Python, Java, and C++, web development, data science, machine learning, cybersecurity, cloud computing, and more. We also have courses tailored for beginners, intermediate learners, and advanced professionals. <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Are the courses suitable for beginners?
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body"> Yes! We have a variety of courses specifically designed for beginners with no prior experience. Our beginner courses provide a solid foundation in computer science concepts and gradually build up to more advanced topics. Each course includes hands-on projects to help you apply what you've learned.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    How do I enroll in a course?  
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Enrolling in a course is easy. Simply visit our website, browse through the available courses, and click on the "Enroll Now" button for the course you're interested in. You will be prompted to create an account or log in, after which you can complete the payment process and start learning immediately.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    What is the duration of your courses?
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">The duration of our courses varies depending on the topic and depth of the material. Some courses can be completed in a few hours, while others may take several weeks. Each course page provides detailed information about the estimated time commitment.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="contactus">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Are the courses self-paced?
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Yes, all our courses are self-paced, allowing you to learn at your own speed and on your own schedule. Once you enroll, you'll have access to the course materials for a specified period, so you can review the content and complete assignments whenever it’s convenient for you.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" >
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Do you offer certificates?
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body" >Yes, upon completion of the course and passing the assessments, you will receive a certificate that validates your skills in Full Stack Development.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+         <!-- FAQ end -->
+          <!-- call us start-->
+    <div class="container-fluid d-flex call" style="background-color: aliceblue;padding: 5%;">
+            <div class="container col-lg-8" >
+              <h1>
+                Don't hesitate; give us a call now!</h1>
+                <br>
+                <br>
+              <h4>Are you ready to elevate your learning journey? Start mastering the subjects with the experts today.</h4>
+            </div>
+            <div class="col-lg-4" style="padding: 5%;display: flex;justify-content: center;">
+              <button type="button" class="btn btn-outline-success" style="font-size: 30px; padding:20px;border-radius: 50px; background-color: #ffffff;color: azure;border-color:#63E6BE;"><i class="fa-solid fa-phone fa-shake fa-lg" style="color: #63E6BE;"></i></button>
+            </div>
+    </div>
+          <!-- call us  end-->
+           <!-- form start -->
+    <div class="container  form">
+      <div class="row">
+        <div>
+              <div style="display:flex;justify-content: center;margin-bottom: 30px;">
+                <h1>JOIN US TODAY</h1>
+              </div>
+              <form class="row g-3 needs-validation" novalidate>
+                <div class="col-md-4">
+                  <label for="validationCustom01" class="form-label">First name<span style="color: red;">*</span></label>
+                  <input type="text" class="form-control" id="validationCustom01" placeholder="Mark" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationCustom02" class="form-label">Last name<span style="color: red;">*</span></label>
+                  <input type="text" class="form-control" id="validationCustom02" placeholder="otto" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationCustomUsername" class="form-label">Username<span style="color: red;">*</span></label>
+                  <div class="input-group has-validation">
+                    <span class="input-group-text" id="inputGroupPrepend">@</span>
+                    <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                    <div class="invalid-feedback">
+                      Please choose a username.
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <label for="validationCustom03" class="form-label">City<span style="color: red;">*</span></label>
+                  <input type="text" class="form-control" id="validationCustom03" required>
+                  <div class="invalid-feedback">
+                    Please provide a valid city.
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <label for="validationCustom04" class="form-label">State<span style="color: red;">*</span></label>
+                  <select class="form-select" id="validationCustom04" required>
+                          <option value="">(select state)</option>
+                          <option value="Andhra Pradesh">Andhra Pradesh</option>
+                          <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                          <option value="Assam">Assam</option>
+                          <option value="Bihar">Bihar</option>
+                          <option value="Chhattisgarh">Chhattisgarh</option>
+                          <option value="Goa">Goa</option>
+                          <option value="Gujarat">Gujarat</option>
+                          <option value="Haryana">Haryana</option>
+                          <option value="Himachal Pradesh">Himachal Pradesh</option>
+                          <option value="Jharkhand">Jharkhand</option>
+                          <option value="Karnataka">Karnataka</option>
+                          <option value="Kerala">Kerala</option>
+                          <option value="Madhya Pradesh">Madhya Pradesh</option>
+                          <option value="Maharashtra">Maharashtra</option>
+                          <option value="Manipur">Manipur</option>
+                          <option value="Meghalaya">Meghalaya</option>
+                          <option value="Mizoram">Mizoram</option>
+                          <option value="Nagaland">Nagaland</option>
+                          <option value="Odisha">Odisha</option>
+                          <option value="Punjab">Punjab</option>
+                          <option value="Rajasthan">Rajasthan</option>
+                          <option value="Sikkim">Sikkim</option>
+                          <option value="Tamil Nadu">Tamil Nadu</option>
+                          <option value="Telangana">Telangana</option>
+                          <option value="Tripura">Tripura</option>
+                          <option value="Uttar Pradesh">Uttar Pradesh</option>
+                          <option value="Uttarakhand">Uttarakhand</option>
+                          <option value="West Bengal">West Bengal</option>
+                          <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+                          <option value="Chandigarh">Chandigarh</option>
+                          <option value="Dadra and Nagar Haveli and Daman and Diu">Dadra and Nagar Haveli and Daman and Diu</option>
+                          <option value="Lakshadweep">Lakshadweep</option>
+                          <option value="Delhi">Delhi</option>
+                          <option value="Puducherry">Puducherry</option>
+                          <option value="Ladakh">Ladakh</option>
+                          <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                  </select>
+                  <div class="invalid-feedback">
+                    Please select a valid state.
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <label for="validationCustom05" class="form-label">Zip<span style="color: red;">*</span></label>
+                  <input type="text" class="form-control" id="validationCustom05" required>
+                  <div class="invalid-feedback">
+                    Please provide a valid zip.
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                    <label class="form-check-label" for="invalidCheck">
+                      Agree to terms and conditions
+                    </label>
+                    <div class="invalid-feedback">
+                      You must agree before submitting.
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12" style="border-color:#63E6BE;">
+                  <button class="btn btn-primary" style="background-color: #03b781;border-color:#63E6BE;" type="submit">Submit</button>
+                </div>
+              </form>
+              </div>
+            </div>
+    </div>
+          <!-- form end -->
+           <!-- android app start-->
+            <!-- android app end -->
+             <!-- footer start -->
+    <div class="container-fluid footer" >
+                <div class="background" style="margin-left: 30px;">
+                <div class="container">
+                <div class="row" >
+                <div class="col-lg-3 col-md-6 col-sm-6" style="margin-bottom: 30px;">
+                  <div><h1 style="font-size: 20px;font-weight: 700;">Pages</h1></div>
+                  <br>
+                  <div class="fw-semibold"><a href="#home">Home</a> </div>
+                  <br>
+                  <div class="fw-semibold"><a href="#aboutus">About us</a> </div>
+                  <br>
+                  <div class="fw-semibold"><a href="#courses">Courses</a> </div>
+                  <br>
+                  <div class="fw-semibold"><a href="#contactus">Contact us</a> </div>
+                  <br>
+                  <div class="fw-semibold"><a href="#carrers">Carrers</a> </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6" style="margin-bottom: 30px;">
+                  <div class="fw-semibold"><h1 style="font-size: 20px;font-weight: 700;">Courses</h1></div>
+                  <br>
+                  <div class="fw-semibold"><a href="#bootstrap">Bootstrap</a> </div>
+                  <br>
+                  <div class="fw-semibold"><a href="#css">CSS</a> </div>
+                  <br>
+                  <div class="fw-semibold"><a href="#html">HTML</a> </div>
+                  <br>
+                  <div class="fw-semibold"><a href="#javascript">JAVASRCIPT</a> </div>
+                </div>
+                <br>
+                <div class="col-lg-3 col-md-6 col-sm-6" style="margin-bottom: 30px;">
+                  <div><h1 style="font-size: 20px;font-weight: 700;">Quick Links</h1></div>
+                  <br>
+                  <div class="fw-semibold"><a href=""><i class="fa-brands fa-facebook"></i> facebook</a> </div>
+                  <br>
+                  <div class="fw-semibold"><a href=""><i class="fa-brands fa-instagram"></i> Instagram</a> </div>
+                  <br>
+                  <div class="fw-semibold"><a href=""><i class="fa-brands fa-x-twitter"></i> Twitter</a> </div>
+                  <br>
+                  <div class="fw-semibold"><a href=""><i class="fa-brands fa-linkedin"></i> Linkdine</a> </div>
+                  <br>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6" style="margin-bottom: 30px;">
+                  <div ><h1 style="font-size: 20px;font-weight: 700;">Contact Us</h1></div>
+                  <br>
+                  <div class="fw-bold ">
+                    <i class="fa-sharp-duotone fa-solid fa-phone fa-lg" style="--fa-primary-color: #8c9b97; --fa-secondary-color: #e6e6e6;font-size:12px;">
+                    </i> 
+                    +919954685462
+                  </div>
+                  <br>
+                  <div class="fw-bold email"><i class="fa-solid fa-envelope" style="color: #636569;font-size:10px;"></i>  codeAlchaemy@gmail.com </div>
+                  <br>
+                  <div width="200px"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d124948.98591291456!2d75.3995084!3d11.8593487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1725441872773!5m2!1sen!2sin"  height="80" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                </div>
+                </div>
+                <hr>
+                 <div style="display: flex;justify-content:space-between;font-size: 12px;" class="copyright">
+                    <p style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Copyright © Code Alchaemy Pvt. Ltd.</p>
+                    <div class="icons"> <i class="fa-brands fa-facebook" style="color: #6f7276;"></i>
+                      <i class="fa-brands fa-instagram" style="color: #6b6f76;"></i>
+                      <i class="fa-brands fa-twitter" style="color: #4c5057;"></i>
+                      <i class="fa-brands fa-youtube" style="color: #696c72;"></i>
+                      <i class="fa-brands fa-linkedin" style="color: #54585f;"></i></div>
+                </div>
+                </div>
+              </div>
+    </div>
+              <!-- footer end -->
+
+              <script>AOS.init();</script>
+</body>
+<!-- script file -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</html>
